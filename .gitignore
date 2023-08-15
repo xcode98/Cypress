@@ -1,0 +1,11 @@
+/cypress
+/cucumber-json
+/downloads
+/fixtures
+/integration
+/plugins
+/support
+/node_modules
+cypress.json
+package-lock.json
+package.json
