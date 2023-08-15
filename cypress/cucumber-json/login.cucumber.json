@@ -1,0 +1,51 @@
+[
+  {
+    "description": "    Como usuario del sistema de gestión de recursos humanos\n    Quiero poder registrar nuevos empleados\n    Para que sus datos estén disponibles en el sistema",
+    "keyword": "Feature",
+    "name": "Registro de Empleados",
+    "line": 1,
+    "id": "registro-de-empleados",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "registro-de-empleados;registro-exitoso-de-un-empleado",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Registro exitoso de un empleado",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "admin is logged in",
+            "result": {
+              "status": "undefined",
+              "duration": 22000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "se encuentra en el dashboard",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "que estoy en la sección de Registro de Empleados",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
